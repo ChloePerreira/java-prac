@@ -1,0 +1,14 @@
+Given a matrix of nodes, some of which are connected and some of which are not
+Nodes represented by index array where number of node is index
+Objects filling in array are the connections (index of the node)
+Objects only connected to ones with higher indices
+But only connectd to something lower? 
+Wtf?!
+Go from high to low
+Clusters are called connected components
+
+Connected takes in node a and b (both indices of the array) and has access to the 
+connections array
+
+Union -- checks if connected and if not connected, then makes the connection 
+Returns new array with new values and indices
